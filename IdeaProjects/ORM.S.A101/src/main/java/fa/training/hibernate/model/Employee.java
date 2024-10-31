@@ -17,4 +17,6 @@ public class Employee {
     private String firstName;
     @Column(length = 50, name = "Last_Name", nullable = false)
     private String lastName;
+
+    private String phone;
 }
